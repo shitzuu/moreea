@@ -1,0 +1,19 @@
+server.address=127.0.0.1
+server.port=8080
+
+# You should regenerate that value for security purposes, use: https://passwordsgenerator.net/
+moreea.security.accesstoken=j7cJysNjLuwbA4TTVmcXFFSj7UCgtSJJ
+moreea.code.length=8
+moreea.code.interval=4
+
+spring.cache.cache-names=verifications
+spring.cache.caffeine.spec=expireAfterWrite=1m
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+
+spring.datasource.url=jdbc:mariadb://127.0.0.1:3306/moreea?useUnicode=true&characterEncoding=utf8&useSSL=false
+spring.datasource.username=my-username
+spring.datasource.password=very-secret-password
+
+spring.datasource.driver-class-name=org.mariadb.jdbc.Driver

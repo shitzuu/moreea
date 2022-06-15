@@ -1,0 +1,19 @@
+{
+  "properties": [
+    {
+      "name": "moreea.security.accesstoken",
+      "type": "java.lang.String",
+      "description": "Access token, which length should be greater or equal to 32 characters. You should keep it safe, because leak of that value can be critical."
+    },
+    {
+      "name": "moreea.code.length",
+      "type": "java.lang.String",
+      "description": "Length of the generated verification code."
+    },
+    {
+      "name": "moreea.code.interval",
+      "type": "java.lang.String",
+      "description": "Interval between the separators in the verification code."
+    }
+  ]
+}

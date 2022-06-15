@@ -1,0 +1,13 @@
+target/
+target/**
+
+*/target/**
+**/target/**
+
+.idea/
+.idea/**
+
+config.hjson
+
+*/application.properties
+**/application.properties
